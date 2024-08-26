@@ -13,40 +13,40 @@
 
 let nomeHeroi = "Eduardo"
 let experiencia = 4554
-​
+
 if(experiencia <= 1000)
 {
-    console.log("O Herói de nome " + nomeHeroi + " esta no nível Ferro")
+console.log("O Herói de nome " + nomeHeroi + " esta no nível Ferro");
 }
-else if(experiencia >= 1001 && experiencia <= 2000)
+else if((experiencia >= 1001) && (experiencia <= 2000))
 {
-    console.log("O Herói de nome " + nomeHeroi + " esta no nível Bronze")
+console.log("O Herói de nome " + nomeHeroi + " esta no nível Bronze");
 }
-else if(experiencia >= 2001 && experiencia <= 5000)
+else if((experiencia >= 2001) && (experiencia <= 5000))
 {
-    console.log("O Herói de nome " + nomeHeroi + " esta no nível Prata")
+console.log("O Herói de nome " + nomeHeroi + " esta no nível Prata");
 }
-else if(experiencia >= 5001 && experiencia <= 7000)
+else if((experiencia >= 5001) && (experiencia <= 7000))
 {
-    console.log("O Herói de nome " + nomeHeroi + " esta no nível Ouro")
+console.log("O Herói de nome " + nomeHeroi + " esta no nível Ouro");
 }
-else if(experiencia >= 7001 && experiencia <= 8000)
+else if((experiencia >= 7001) && (experiencia <= 8000))
 {
-    console.log("O Herói de nome " + nomeHeroi + " esta no nível Platina")
+console.log("O Herói de nome " + nomeHeroi + " esta no nível Platina");
 }
-else if(experiencia >= 8001 && experiencia <= 9000)
+else if((experiencia >= 8001) && (experiencia <= 9000))
 {
-    console.log("O Herói de nome " + nomeHeroi + " esta no nível Ascendente")
+console.log("O Herói de nome " + nomeHeroi + " esta no nível Ascendente");
 }
-else if(experiencia >= 9001 && experiencia <= 10000)
+else if((experiencia >= 9001) && (experiencia <= 10000))
 {
-    console.log("O Herói de nome " + nomeHeroi + " esta no nível Imortal")
+console.log("O Herói de nome " + nomeHeroi + " esta no nível Imortal");
 }
 else if(experiencia >= 10001)
 {
-    console.log("O Herói de nome " + nomeHeroi + " esta no nível Radiante")
+console.log("O Herói de nome " + nomeHeroi + " esta no nível Radiante");
 }
-else{
-​   console.log()
+else
+{
+    console.log("texto")
 }
-​
